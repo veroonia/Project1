@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NileWay Rentals</title>
+    <link rel="stylesheet" href="HomeStyle.css">
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="banner">
+
+        <video autoplay muted loop id="background-video">
+            <source src="videos/carvid.mov" type="video/mp4">
+            Your browser does not support the video tag
+        </video>
+        <div class="fade-overlay"></div>
+
+        <div class="navbar">
+            <!-- <div>
+                <img src="nilewayrentalogo-02.png" alt="logo">
+            </div>
+                -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Book</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+           
+            <form class="search-container" action="/search" method="GET">
+                <input type="text" placeholder="Search for cars..." name="search">
+                <button type="submit">Go</button>
+            </form>
+           
+        </div>
+
+        <div class="content">
+            <h1>Comfotable glide<br>
+                in Egypt!
+            </h1>
+            <button type="button"><span></span>EXPLORE ALL</button>
+        </div>
+        
+    </div>
+
+    <!-- SEARCH -->
+
+    <div class="search">
+        <h2>Find Your Perfect New or Used Cars</h2>
+        <p>Safe and secure car deals for you.</p>
+        <div class="searchBar">
+            <label for="start-date">Select Starting Date:</label>
+            <input type="date" id="start-date">
+
+            <label for="end-date">Select Ending Date:</label>
+            <input type="date" id="end-date">
+
+            <select><option>Select City</option></select>
+        </div>
+        <button type="button"><span></span>Search</button>
+    </div>
+
+    <!-- BROWSE -->
+
+    <div class="browse">
+        <h2>Browse by Type</h2>
+        <div class="browser-container">
+
+            <!-- first -->
+            <div class="browse-card">
+                <img src="browse1.jpeg" alt="Sedan">
+                <p>7 cars</p><br>
+                <strong>Sedan</strong>
+            </div>
+
+             <!-- second -->
+            <div class="browse-card">
+                <img src="browse 2.avif" alt="Hatchback">
+                <p>1 car</p><br>
+                <strong>Hatchback</strong>
+            </div>
+
+            <!-- third -->
+            <div class="browse-card">
+                <img src="browse 3.webp" alt="Convertible">
+                <p>3 cars</p><br>
+                <strong>Convertible</strong>
+            </div>
+
+            <!-- fourth -->
+            <div class="browse-card">
+                <img src="browse 4.avif" alt="SUV">
+                <p>4 cars</p><br>
+                <strong>SUV</strong>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- WHY CHOOSE US -->
+
+    <div class="choose">
+        <h2>Why Choose Us?</h2>
+        <div class="features">
+
+            <!-- first -->
+            <div class="feature-card">
+                <img src="first icon.png" alt="Financing Icon">
+                <h3>Special Financing Offers</h3>
+                <br>
+                <p>Flexible financing solutions tailored to your budget. Get low-interest rates and easy approval!</p>
+            </div>
+
+             <!-- second -->
+            <div class="feature-card">
+                <img src="second icon.png" alt="Dealership Icon">
+                <h3>Trusted Car Dealership</h3>
+                <br>
+                <p>With years of experience, we provide reliable service, certified vehicles, and honest deals.</p>
+            </div>
+
+            <!-- third -->
+            <div class="feature-card">
+                <img src="third icon.png" alt="Pricing Icon">
+                <h3>Transparent pricing</h3>
+                <br>
+                <p> No hidden fees, no surprises! What you see is what you pay—clear and upfront pricing.</p>
+            </div>
+
+            <!-- fourth -->
+            <div class="feature-card">
+                <img src="fourth-icon.png" alt="Service Icon">
+                <h3>Expert Car Services</h3>
+                <br>
+                <p>From maintenance to repairs, our skilled technicians ensure your car stays in top condition.</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- LISTINGS -->
+
+    <div class="featured-listings">
+        <h2>Featured Listings</h2>
+        <div class="listings">
+
+            <!-- Inner listings -->
+
+            <!-- First -->
+            <div class="list">
+                <div class="image-container">
+                    <img src="1st feature.avif" alt="Toyota Camry New">
+                    <span class="tag green">Best Seller</span>
+                </div>
+
+                <h3>Toyota Camry New</h3>
+                <p>15,000 miles • Automatic • Petrol</p>
+                
+                <div class="price">$550/month</div>
+                <a href="#" class="view">View</a>
+            </div>
+
+            <!-- Second -->
+            <div class="list">
+                <div class="image-container">
+                    <img src="second-feature.jpeg" alt="T-Cross - 2023">
+
+                </div>
+
+                <h3>T-Cross - 2023</h3>
+                <p>10,000 miles • Automatic • Petrol</p>
+                
+                <div class="price">$150/month</div>
+                <a href="#" class="view">View</a>
+            </div>
+
+            <!-- Third -->
+            <div class="list">
+                <div class="image-container">
+                    <img src="3rd-feature.avif" alt="C-Class 2023">
+                
+                </div>
+
+                <h3>C-Class 2023</h3>
+                <p>8,500 miles • Automatic • Petrol</p>
+                
+                <div class="price">$300/month</div>
+                <a href="#" class="view">View</a>
+            </div>
+
+            <!-- Fourth -->
+            <div class="list">
+                <div class="image-container">
+                    <img src="fourth-feature.webp" alt="New GLC 2023">
+                
+                </div>
+
+                <h3>New GLC 2023</h3>
+                <p>5,000 miles • Automatic • Petrol</p>
+                
+                <div class="price">$900/month</div>
+                <a href="#" class="view">View</a>
+            </div>
+
+            <!-- Fifth -->
+            <div class="list">
+                <div class="image-container">
+                    <img src="fifth-feature.jpg" alt="Ford Mustang 2024">
+                
+                </div>
+
+                <h3>Ford Mustang 2024</h3>
+                <p>3,000 miles • Manual • Petrol</p>
+                
+                <div class="price">$400/month</div>
+                <a href="#" class="view">View</a>
+            </div>
+
+            <div class="view-all-container">
+                <a href="#" class="view">View All</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+        <div class="footer-container">
+
+            <!-- FOOTER  LINKS-->
+
+            <div class="links">
+                <h3>Quick Links</h3>
+                <hr>
+                <br>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Our Policy</a></li>
+                    <li><a href="#">Admin Panel</a></li>
+                </ul>
+            </div>
+
+            <!-- FOOTER SOCIAL MEDIA-->
+            <div class="social">
+                <h3>Social Media</h3>
+                 <hr>
+                 <br>
+                 <ul>
+                    <li>Instagram: NileWay_Rentals</li>
+                    <br>
+                    <li>Facebook: NileWay Rentals</li>
+                    <br>
+                    <li>Website    : www.NileWayRentals.com</li>
+                 </ul>
+            </div>
+
+            <!-- FOOTER LOGIN/SIGN UP-->
+
+            <div class="login">
+                <h3>Sign up with NileWay Rentals</h3>
+                <br>
+                <form>
+                    <input type="email" placeholder="Email">
+                    <button type="submit" id="loginbtn">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
