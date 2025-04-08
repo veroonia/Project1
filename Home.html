@@ -25,10 +25,10 @@
             </div>
                 -->
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Book</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#">Cars</a></li> <!--directing to shop all page-->
+                <li><a href="About us.html">About us</a></li>
+                <li><a href="Contact us.html">Contact us</a></li>
             </ul>
            
             <form class="search-container" action="/search" method="GET">
@@ -59,7 +59,13 @@
             <label for="end-date">Select Ending Date:</label>
             <input type="date" id="end-date">
 
-            <select><option>Select City</option></select>
+            <select>
+                <option disabled selected>Select City</option>
+                <option>Cairo</option>
+                <option>Hurghada</option>
+                <option>Alexandria</option>
+                <option>Sharm El Sheikh</option>
+            </select>
         </div>
         <button type="button"><span></span>Search</button>
     </div>
@@ -217,11 +223,11 @@
                 <p>3,000 miles • Manual • Petrol</p>
                 
                 <div class="price">$400/month</div>
-                <a href="#" class="view">View</a>
+                <a href="#" class="view">View</a> <!-- directing to each car page-->>
             </div>
 
             <div class="view-all-container">
-                <a href="#" class="view">View All</a>
+                <a href="#" class="view">View All</a> <!--directing to shop all page-->>
             </div>
         </div>
     </div>
@@ -238,10 +244,10 @@
                 <hr>
                 <br>
                 <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Our Policy</a></li>
-                    <li><a href="#">Admin Panel</a></li>
+                    <li><a href="About us.html">About Us</a></li>
+                    <li><a href="Contact us.html">Contact Us</a></li>
+                    <li><a href="Our policy.html">Our Policy</a></li>
+                    <li><a href="#">Admin Panel</a></li> <!-- directing to admin page-->>
                 </ul>
             </div>
 
@@ -266,7 +272,10 @@
                 <br>
                 <form>
                     <input type="email" placeholder="Email">
-                    <button type="submit" id="loginbtn">Login</button>
+                    
+                    <a href="#" class="email-login">
+                        <button type="submit" id="loginbtn">Login</button> <!--directing to login/signup page-->>
+                    </a>
                 </form>
             </div>
         </div>
